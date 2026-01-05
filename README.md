@@ -92,7 +92,7 @@ See [templates/attributions.html](templates/attributions.html) for asset attribu
 ## License
 Add your preferred license here (e.g., MIT). If none, state "All rights reserved.".
 
-https://github.com/Likhith-Sanathi/js-roguelike-game/blob/master/Screenshot%202025-11-04%20224617.png?raw=true
-https://github.com/Likhith-Sanathi/js-roguelike-game/blob/master/Screenshot%202025-11-04%20224739.png?raw=true
-https://github.com/Likhith-Sanathi/js-roguelike-game/blob/master/Screenshot%202025-11-04%20224800.png?raw=true
-https://github.com/Likhith-Sanathi/js-roguelike-game/blob/master/Screenshot%202025-11-04%20224822.png?raw=true
+![image_alt](https://github.com/Likhith-Sanathi/js-roguelike-game/blob/master/Screenshot%202025-11-04%20224617.png?raw=true)
+![image_alt](https://github.com/Likhith-Sanathi/js-roguelike-game/blob/master/Screenshot%202025-11-04%20224739.png?raw=true)
+![image_alt](https://github.com/Likhith-Sanathi/js-roguelike-game/blob/master/Screenshot%202025-11-04%20224800.png?raw=true)
+![image_alt](https://github.com/Likhith-Sanathi/js-roguelike-game/blob/master/Screenshot%202025-11-04%20224822.png?raw=true)
