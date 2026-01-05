@@ -1,0 +1,175 @@
+@font-face {
+    font-family: "Pixelify Sans";
+    src: url("../fonts/PixelifySans/PixelifySans-Regular.ttf") format("truetype");
+}
+a{
+    color: rgb(66, 66, 255)
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Pixelify Sans';
+    font-size: 2rem;
+    background-color: #000;
+    color: white;
+    image-rendering: pixelated;
+}
+body > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+p {
+    margin: 0;
+}
+
+#index p{
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+#game-page nav div{
+    display: flex;
+    flex-direction: row;
+    a{
+        margin-left:0.5rem;
+        margin-right:0.5rem;
+    }
+}
+
+#game-page nav div p{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+#game-page nav{
+    width: 100vw;
+}
+
+#game-page nav div div{
+    margin-left: auto;
+}
+
+#attributions main{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+canvas {
+    width: 100%;
+    height: 85vh;
+    display: block;
+}
+
+#time, #score{
+    color: rgb(101, 255, 101);
+}
+#game-page main div{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#gameOverContainer {
+    text-align: center;
+}
+#gameOverMessage {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+#replayButton {
+    padding: 8px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+#replayButton:hover {
+    background-color: #c0392b;
+}
+footer{
+    margin-top: auto;
+    text-align: center;
+    width: 100vw;
+    margin-bottom: 0.75rem;
+}
+nav{
+    margin-left: auto;
+}
+#index main,
+#sign_up main,
+#login main,
+#leaderboard main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+}
+#index,
+#sign_up,
+#login,
+#leaderboard {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    margin: 0.5rem;
+    height: 1.25rem;
+    font-family: 'Pixelify Sans';
+    font-weight: 600;
+    font-size: 1rem;
+}
+#submit{
+    width: 4rem;
+    height: 2rem;
+}
+#table_container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+#table_container table {
+    max-height: 300px;
+    overflow-y: auto;
+    display: block;
+}
+#table_container table::-webkit-scrollbar {
+    width: 8px;
+}
+#table_container table::-webkit-scrollbar-track {
+    background: #2a2a2a;
+}
+#table_container table::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 4px;
+}
+#table_container table th {
+    position: sticky;
+    top: 0;
+    background-color: #000;
+    z-index: 1;
+}
